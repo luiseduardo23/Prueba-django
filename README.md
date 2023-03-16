@@ -1,8 +1,15 @@
 # Prueba-django
 Aplicación desarrollada con el framework DJango que consiste en un microservicio provisto de una API REST para la gestión (CRUD) de dos tablas mediante peticiones HTTP. 
 
-## Pasos para trabajar con el proyecto.
+## Pre-requisitos:
+* Instalar Python 3.
+* Instalar Gestor de bases de datos postgreSQL
+* Crear la BD donde se migrarán los modelos de Empleado y Departamento.
 
-1. Abrir la consola de comandos y acceder al proyecto _microservicios_.
-2. Instalar las dependencias necesarias Windows: pip install -r requirements.txt
-3. Crear un archivo .env dentro de la carpeta _microservicios_ con la siguiente información:
+## Pasos para trabajar con el proyecto:
+
+Una vez clonado el proyecto y estando en la carpeta de _microservicios_:
+
+1. Instalar las dependencias necesarias
+    * Windows: `pip install -r requirements.txt`
+2. Crear un archivo .env dentro de la carpeta _microservicios_ con la siguiente información:
