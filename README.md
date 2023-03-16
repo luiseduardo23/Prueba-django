@@ -4,4 +4,5 @@ Aplicación desarrollada con el framework DJango que consiste en un microservici
 ## Pasos para trabajar con el proyecto.
 
 1. Abrir la consola de comandos y acceder al proyecto _microservicios_.
-2.
+2. Instalar las dependencias necesarias Windows: pip install -r requirements.txt
+3. Crear un archivo .env dentro de la carpeta _microservicios_ con la siguiente información:
