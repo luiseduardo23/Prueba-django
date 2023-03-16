@@ -13,7 +13,7 @@ class Departamento(models.Model):
 #Modelo Empleado
 class Empleado(models.Model):
     codigo = models.PositiveIntegerField(primary_key=True, unique=True, validators=[MaxValueValidator(9999999999), MinValueValidator(1)])
-    nit = models.CharField(max_length=9)
+    nit = models.CharField(max_length=9, unique=True)
     nombre = models.CharField(max_length=100)
     apellido1 = models.CharField(max_length=100)
     apellido2 = models.CharField(max_length=100)
