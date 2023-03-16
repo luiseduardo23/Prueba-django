@@ -80,6 +80,7 @@ from decouple import config
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        #Variables de entorno para la base de datos.
         'NAME': config('POSTGRESQL_DB'),
         'USER': config('POSTGRESQL_USER'),
         'PASSWORD': config('POSTGRESQL_PASSWORD'),

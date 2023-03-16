@@ -1,5 +1,6 @@
 from django.db import models
 from django.core.validators import MaxValueValidator, MinValueValidator
+#Se importan validators, para determinar el rango de valores de los códigos entre 1 y 9999999999
 
 # Modelo Departamento
 class Departamento(models.Model):

@@ -11,7 +11,7 @@ def main():
         from django.core.management import execute_from_command_line
         from django.core.management.commands.runserver import Command as runserver
         from decouple import config
-        runserver.default_port = config('PORT_CONECTION')
+        runserver.default_port = config('PORT_CONECTION') #Variable de entorno para el puerto de conexión
     except ImportError as exc:
         raise ImportError(
             "Couldn't import Django. Are you sure it's installed and "
