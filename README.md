@@ -32,4 +32,4 @@ Una vez clonado el proyecto y estando en la carpeta de _microservicios_:
 4. Ejecutar el server de desarrollo:
       * Windows: `python manage.py runserver`
       
-5. Por último, leer la documentación () de como usar la API de Empleados y Departamentos del microservicio.
+5. Por último, leer la [documentación dde como usar la API REST para el CRUD de Empleados y Departamentos](https://github.com/luiseduardo23/Prueba-django/blob/main/Documentaci%C3%B3n%20del%20API%20REST%20para%20microservicios.pdf).
