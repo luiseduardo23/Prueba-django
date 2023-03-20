@@ -23,7 +23,7 @@ Una vez clonado el proyecto y estando en la carpeta de _microservicios_:
       
       PORT_CONECTION = 1234
       ```
-      __Comentario:__ La variable `PORT_CONECTION` indica el puerto de conexión del servidor de desarrollo. Por defecto este es el 8000, pero para la prueba se requiere el puerto TCP 1234.
+      __Comentario:__ La variable `PORT_CONECTION` indica el puerto de conexión del servidor de desarrollo. Por defecto este es el 8000, pero para la prueba se requiere el puerto TCP 1234. En caso de tener el puerto 1234 cerrado y no poder abrirlo con tu Firewall, es recomendable usar el puerto por defecto (8000).
       
 3. Realizar las migraciones con los comandos:
       * Windows: `python manage.py makemigrations`
